@@ -143,8 +143,8 @@ export default {
         'description': 'Tüm dosyaları düzeltirken veya kaydederken düzeltme işleminin yoksayılacağı klasörler. Klasör yollarını yeni satırlarla ayırarak girin',
       },
       'override-locale': {
-        'name': 'Yerel ayarların üzerine yaz',
-        'description': 'Varsayılanın dışında bir yerel ayar kullanmak istiyorsanız bunu ayarlayın',
+        'name': 'Linter dili',
+        'description': 'Sistem dili dışında bir dil kullanmak istiyorsanız bunu değiştirin',
       },
       'same-as-system-locale': 'Sistemle aynı ({SYS_LOCALE})',
       'yaml-aliases-section-style': {
