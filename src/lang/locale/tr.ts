@@ -30,7 +30,7 @@ export default {
       'message-plural': '{FOLDER_NAME} içindeki tüm {FILE_COUNT} dosya lintlendi ve {ERROR_COUNT} hata vardı.',
     },
     'paste-as-plain-text': {
-      'name': 'Düz Metin Olarak & Modifikasyonsuz Yapıştır',
+      'name': 'Biçimlendirmesiz Metin Olarak Yapıştır',
     },
     'lint-file-pop-up-menu-text': {
       'name': 'Dosyayı lintle',
@@ -116,7 +116,7 @@ export default {
       'debug': 'Hata ayıkla',
     },
     // tab-searcher.ts
-    'default-search-bar-text': 'Tüm ayarları ara',
+    'default-search-bar-text': 'Tüm ayarlarda ara',
     'general': {
       // general-tab.ts
       'lint-on-save': {
@@ -124,11 +124,11 @@ export default {
         'description': 'Manuel kaydetme (Ctrl + S tuşuna basıldığında veya vim tuş bağlamalarını kullanırken :w komutu çalıştırıldığında) dosyayı düzeltir',
       },
       'display-message': {
-        'name': 'Düzeltme sonrası mesajı göster',
+        'name': 'Düzeltme Sonrası Bigi Göster',
         'description': 'Düzeltme sonrası değişen karakter sayısını gösterir',
       },
       'lint-on-file-change': {
-        'name': 'Dosya Değişikliğinde Düzeltme',
+        'name': 'Dosya Değişikliğinde Düzelt',
         'description': 'Bir dosya kapatıldığında veya yeni bir dosya açıldığında, önceki dosya düzeltilir.',
       },
       'display-lint-on-file-change-message': {
@@ -205,7 +205,7 @@ export default {
       'description': 'Özel regex değiştirme, bulunan regex ile eşleşen her şeyi değiştirme değeri ile değiştirmek için kullanılabilir. Değiştirme ve bulma değerleri geçerli regex değerleri olmalıdır.',
       'warning': 'Regex hakkında bilginiz yoksa dikkatli kullanın. Ayrıca, lütle iOS mobil platformunda regexinizde geriye dönük aramaları kullanmayın çünkü bu, o platformda desteklenmediği için lint işleminin başarısız olmasına neden olur.',
       'add-input-button-text': 'Yeni regex değiştirme ekle',
-      'regex-to-find-placeholder-text': 'bulunacak regex',
+      'regex-to-find-placeholder-text': 'aranacak regex',
       'flags-placeholder-text': 'bayraklar',
       'regex-to-replace-placeholder-text': 'değiştirilecek regex',
       'label-placeholder-text': 'etiket',
@@ -277,8 +277,8 @@ export default {
     },
     // convert-bullet-list-markers.ts
     'convert-bullet-list-markers': {
-      'name': 'Bullet List Markerlarını Dönüştür',
-      'description': 'Bullet list marker sembollerini markdown list markerlarına dönüştürür.',
+      'name': 'Madde İşaretini Dönüştür',
+      'description': 'Madde işareti sembollerini markdown liste işaretine dönüştürür.',
     },
     // convert-spaces-to-tabs.ts
     'convert-spaces-to-tabs': {
